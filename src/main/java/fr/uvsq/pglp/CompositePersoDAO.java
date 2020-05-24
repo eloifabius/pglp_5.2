@@ -23,15 +23,14 @@ public class CompositePersoDAO extends DAO<CompositePerso>{
 	}
 
 	@Override
-	public CompositePerso update(CompositePerso obj) {
-		// TODO Auto-generated method stub
-		return null;
+	public int update(int id, String nom, String premnom) {
+		return 0;
 	}
 
 	@Override
-	public void delete(CompositePerso obj) {
-		// TODO Auto-generated method stub
-		
+	public int delete(int id) {
+		return 0;
 	}
+
 
 }

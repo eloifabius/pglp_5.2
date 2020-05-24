@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class entrepriseConnection {
 	
-	private static String JDBC_URL="jdbc:derby:PersoDB;create=true";
+	private static String JDBC_URL="jdbc:derby:pglp_db;create=true";
 	private static final String DRIVER="org.apache.derby.jdbc.EmbeddedDriver";
 	
 	public static Connection getInstanceConnexion()
