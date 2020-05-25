@@ -1,4 +1,4 @@
-package fr.uvsq.pglp.Exercice_5_2;
+package fr.uvsq.pglp;
 
 import static org.junit.Assert.assertTrue;
 
